@@ -2,7 +2,11 @@ Piano WebApp
 This repository contains the source code for a simple Piano WebApp created using HTML, CSS, and JavaScript.
 
 Overview
-The Piano WebApp allows users to play different piano keys and create beautiful melodies right from their web browser. It is designed to be user-friendly and responsive, providing an enjoyable experience for both desktop and mobile users.
+The Piano WebApp allows users to play different piano keys and create beautiful melodies right from their web browser. It is designed to be user-friendly and responsive, providing an enjoyable experience for
+users.
+
+![image](https://github.com/Adityautekar/Piano-app/assets/125029214/b3348909-a58e-4012-b921-c7a727b382f4)
+
 
 Features
 Interactive Piano Keys: Users can click on the piano keys or use their keyboard to play different notes.
@@ -12,7 +16,7 @@ Getting Started
 Follow these steps to get the Piano WebApp up and running on your local machine:
 
 Clone the Repository:
-git clone https://github.com/your-username/Piano-app.git
+git clone https://github.com/Adityautekar/Piano-app
 
 Open the Project:
 cd Piano-app
