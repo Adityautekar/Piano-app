@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="piano.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Carter+One&family=Poppins&family=Roboto&family=Roboto+Slab&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Play Piano</title>
+</head>
+<body>
+    <header class="top-bar">
+        <div>🎶 Play Piano 🎶</div>
+    </header>
+    <div class="container">
+        <header>
+            <p>Casio 2.0</p>
+            <div class="top-container">
+                <div>
+                    <label for="volume">Volume</label> 
+                    <input id="volume" type="range" value="15" min="1" max="30">
+                </div>  
+                <div id="mode"><span>Mode</span></div>
+            </div>    
+        </header>
+        <ul class="key-container">
+            <li class="key white" data-key="a"><span>a</span></li>
+            <li class="key black" data-key="w"><span>w</span></li>
+            <li class="key white" data-key="s"><span>s</span></li>
+            <li class="key black" data-key="e"><span>e</span></li>
+            <li class="key white" data-key="d"><span>d</span></li>
+            <li class="key white" data-key="f"><span>f</span></li>
+            <li class="key black" data-key="t"><span>t</span></li>
+            <li class="key white" data-key="g"><span>g</span></li>
+            <li class="key black" data-key="y"><span>y</span></li>
+            <li class="key white" data-key="n"><span>n</span></li>
+            <li class="key black" data-key="u"><span>u</span></li>
+            <li class="key white" data-key="j"><span>j</span></li>
+            <li class="key white" data-key="k"><span>k</span></li>
+            <li class="key black" data-key="o"><span>o</span></li>
+            <li class="key white" data-key="l"><span>l</span></li>
+            <li class="key black" data-key="q"><span>q</span></li>
+            <li class="key white" data-key="x"><span>x</span></li>
+            <li class="key black" data-key="z"><span>z</span></li>
+            <li class="key white" data-key="c"><span>c</span></li>
+            <li class="key white" data-key="v"><span>v</span></li>
+            <li class="key black" data-key="m"><span>m</span></li>
+            <li class="key white" data-key=";"><span>;</span></li>
+            <li class="key black" data-key="r"><span>r</span></li>
+            <li class="key white" data-key="."><span>.</span></li>
+        </ul>
+        <div class="footer" >© Aditya Utekar ,2023</div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
+
