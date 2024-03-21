@@ -1,4 +1,4 @@
-Piano WebApp
+#Piano WebApp
 This repository contains the source code for a simple Piano WebApp created using HTML, CSS, and JavaScript.
 
 Overview
